@@ -117,11 +117,11 @@ Please see the attached laravel dump.
 
 ### POSTMAN SCREENSHOTS
 
-![alt text](https://github.com/ficshelf/wud-2/raw/master/src/postman1.png "screenshot1")
+![alt text](https://github.com/ficshelf/wud-2/blob/master/postman1.png "screenshot1")
 
-![alt text](https://github.com/ficshelf/wud-2/raw/master/src/postman2.png "screenshot2")
+![alt text](https://github.com/ficshelf/wud-2/blob/master/postman2.png "screenshot2")
 
-![alt text](https://github.com/ficshelf/wud-2/raw/master/src/postman3.png "screenshot2")
+![alt text](https://github.com/ficshelf/wud-2/blob/master/postman3.png "screenshot2")
 
 ----
 
