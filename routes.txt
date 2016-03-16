@@ -1,0 +1,33 @@
++--------+-----------+-----------------------------------------------------+-----------------------------------+---------------------------------------------------------+------------+
+| Domain | Method    | URI                                                 | Name                              | Action                                                  | Middleware |
++--------+-----------+-----------------------------------------------------+-----------------------------------+---------------------------------------------------------+------------+
+|        | GET|HEAD  | /                                                   |                                   | Closure                                                 |            |
+|        | GET|HEAD  | api/v1/claim_status_codes                           | api.v1.claim_status_codes.index   | App\Http\Controllers\ClaimStatusCodesController@index   |            |
+|        | POST      | api/v1/claim_status_codes                           | api.v1.claim_status_codes.store   | App\Http\Controllers\ClaimStatusCodesController@store   |            |
+|        | GET|HEAD  | api/v1/claim_status_codes/create                    | api.v1.claim_status_codes.create  | App\Http\Controllers\ClaimStatusCodesController@create  |            |
+|        | PUT|PATCH | api/v1/claim_status_codes/{claim_status_codes}      | api.v1.claim_status_codes.update  | App\Http\Controllers\ClaimStatusCodesController@update  |            |
+|        | DELETE    | api/v1/claim_status_codes/{claim_status_codes}      | api.v1.claim_status_codes.destroy | App\Http\Controllers\ClaimStatusCodesController@destroy |            |
+|        | GET|HEAD  | api/v1/claim_status_codes/{claim_status_codes}      | api.v1.claim_status_codes.show    | App\Http\Controllers\ClaimStatusCodesController@show    |            |
+|        | GET|HEAD  | api/v1/claim_status_codes/{claim_status_codes}/edit | api.v1.claim_status_codes.edit    | App\Http\Controllers\ClaimStatusCodesController@edit    |            |
+|        | POST      | api/v1/claims                                       | api.v1.claims.store               | App\Http\Controllers\ClaimsController@store             |            |
+|        | GET|HEAD  | api/v1/claims                                       | api.v1.claims.index               | App\Http\Controllers\ClaimsController@index             |            |
+|        | GET|HEAD  | api/v1/claims/create                                | api.v1.claims.create              | App\Http\Controllers\ClaimsController@create            |            |
+|        | DELETE    | api/v1/claims/{claims}                              | api.v1.claims.destroy             | App\Http\Controllers\ClaimsController@destroy           |            |
+|        | PUT|PATCH | api/v1/claims/{claims}                              | api.v1.claims.update              | App\Http\Controllers\ClaimsController@update            |            |
+|        | GET|HEAD  | api/v1/claims/{claims}                              | api.v1.claims.show                | App\Http\Controllers\ClaimsController@show              |            |
+|        | GET|HEAD  | api/v1/claims/{claims}/edit                         | api.v1.claims.edit                | App\Http\Controllers\ClaimsController@edit              |            |
+|        | GET|HEAD  | api/v1/defendants                                   | api.v1.defendants.index           | App\Http\Controllers\DefendantsController@index         |            |
+|        | POST      | api/v1/defendants                                   | api.v1.defendants.store           | App\Http\Controllers\DefendantsController@store         |            |
+|        | GET|HEAD  | api/v1/defendants/create                            | api.v1.defendants.create          | App\Http\Controllers\DefendantsController@create        |            |
+|        | DELETE    | api/v1/defendants/{defendants}                      | api.v1.defendants.destroy         | App\Http\Controllers\DefendantsController@destroy       |            |
+|        | PUT|PATCH | api/v1/defendants/{defendants}                      | api.v1.defendants.update          | App\Http\Controllers\DefendantsController@update        |            |
+|        | GET|HEAD  | api/v1/defendants/{defendants}                      | api.v1.defendants.show            | App\Http\Controllers\DefendantsController@show          |            |
+|        | GET|HEAD  | api/v1/defendants/{defendants}/edit                 | api.v1.defendants.edit            | App\Http\Controllers\DefendantsController@edit          |            |
+|        | GET|HEAD  | api/v1/legal_events                                 | api.v1.legal_events.index         | App\Http\Controllers\LegalEventsController@index        |            |
+|        | POST      | api/v1/legal_events                                 | api.v1.legal_events.store         | App\Http\Controllers\LegalEventsController@store        |            |
+|        | GET|HEAD  | api/v1/legal_events/create                          | api.v1.legal_events.create        | App\Http\Controllers\LegalEventsController@create       |            |
+|        | PUT|PATCH | api/v1/legal_events/{legal_events}                  | api.v1.legal_events.update        | App\Http\Controllers\LegalEventsController@update       |            |
+|        | DELETE    | api/v1/legal_events/{legal_events}                  | api.v1.legal_events.destroy       | App\Http\Controllers\LegalEventsController@destroy      |            |
+|        | GET|HEAD  | api/v1/legal_events/{legal_events}                  | api.v1.legal_events.show          | App\Http\Controllers\LegalEventsController@show         |            |
+|        | GET|HEAD  | api/v1/legal_events/{legal_events}/edit             | api.v1.legal_events.edit          | App\Http\Controllers\LegalEventsController@edit         |            |
++--------+-----------+-----------------------------------------------------+-----------------------------------+---------------------------------------------------------+------------+
