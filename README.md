@@ -55,7 +55,7 @@ Nice views. Yes there are some files under resources/views, but these were my le
 
 ---
 
-## Step 1 â Install LAMP
+## Step 1 install LAMP
 
 ### a. Install PHP 5.5
 
@@ -125,9 +125,13 @@ Please see the attached laravel dump.
 
 ----
 
+
 ## Step 4.
 
 SQL Query:
 
+I have fallen on my sword here. Could I get it right EVENTUALLY? Yes. Is my SQL rusty? Yes. 
+
+I would simply implement it as a set of smaller queries. Oh well.
 
 ...
